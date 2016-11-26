@@ -37,7 +37,7 @@ hist(steps_by_day$steps, breaks = 20, main = "Total number of steps by day",
 
 ![](PA1_template_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
 
-Finally, the mean and median of the total number of steps taken per day are calculated and reported.
+Finally, the mean and median of the total number of steps taken per day is calculated and reported.
 
 ```r
 mean_steps_day <- mean(steps_by_day$steps, na.rm = TRUE)
